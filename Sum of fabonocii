@@ -1,0 +1,24 @@
+n = int(input())
+
+
+
+a = 0
+
+b = 1
+
+Sum = 0
+
+for i in range(0, n):
+
+    print(a, end = '  ')
+
+    Sum = Sum + a
+
+    Next = a + b
+
+    a = b
+
+    b = Next
+
+print("Sum of Fibonacci Series Numbers" Sum)
+
